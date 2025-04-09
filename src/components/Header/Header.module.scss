@@ -1,0 +1,42 @@
+@import "../../Variables/Variables.scss";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 24px;
+  border-bottom: solid 1px $text-second;
+  font-size: 16px;
+  .headerLogo {
+    width: 150px;
+  }
+  .headerWelcomeText {
+    font-weight: 700;
+    color: $text-color;
+  }
+  .headerDataText {
+    color: $text-second;
+  }
+}
+
+
+@media (min-width: 768px) {
+    .header {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 32px;
+    }
+  
+    .headerLogo {
+      width: 200px; 
+    }
+  
+    .headerWelcomeText {
+      font-size: 18px;
+    }
+  
+    .headerDataText {
+      font-size: 16px;
+    }
+  }
