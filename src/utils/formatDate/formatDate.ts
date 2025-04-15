@@ -8,4 +8,3 @@ export function formatedData(data: Date): string {
   
     return formated.charAt(0).toUpperCase() + formated.slice(1);
   }
-  EU n

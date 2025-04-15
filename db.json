@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Estudar React",
+      "checked": false
+    },
+    {
+      "id": "2",
+      "title": "Fazer exercícios físicos",
+      "checked": false
+    },
+    {
+      "id": "3",
+      "title": "Criar projeto no GitHub",
+      "checked": false
+    },
+    {
+      "id": "4",
+      "title": "Enviar currículo atualizado",
+      "checked": true
+    },
+    {
+      "id": "5",
+      "title": "Terminar leitura de artigo",
+      "checked": true
+    },
+    {
+      "id": "6",
+      "title": "Revisar aulas de programação",
+      "checked": false
+    }
+  ]
+}

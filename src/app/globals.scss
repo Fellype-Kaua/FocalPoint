@@ -12,6 +12,9 @@
 
 html,
 body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   padding: 1rem;
   max-width: 100vw;
   overflow-x: hidden;

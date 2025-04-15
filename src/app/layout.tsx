@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter_Tight } from "next/font/google";
 import "./globals.scss";
 import Header from "@/components/Header/Header";
+import ToDoList from "@/components/ToDoList/ToDoList";
 
 const interTight = Inter_Tight({
   subsets: ["latin"],
@@ -23,7 +24,9 @@ export default function RootLayout({
     <html lang="pt-BR" className={interTight.variable}>
       <body className="font-sans">
         <Header userName="Fellype"/>
-        <main>{children}</main>
+        <main>
+          <ToDoList/>
+          {children}</main>
       </body>
     </html>
   );
